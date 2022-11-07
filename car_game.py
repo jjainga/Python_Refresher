@@ -2,27 +2,24 @@
 
 
 def car_game():
-    action = input(">")
-    while action:
-        if action.upper() == "HELP":
+    action = ""
+    while action != "QUIT":
+        action = input(">").upper()
+        if action == "HELP":
             print(''' 
             Try
-            >start
-            >stop
-            >quit
+            >start - to start the car
+            >stop - to stop the car
+            >quit - to end the game
             ''')
-            action = input(">")
-        elif action.upper() == "START":
+        elif action == "START":
             print(f"Car started... ready to go")
-            action = input(">")
-        elif action.upper() == "STOP":
+        elif action == "STOP":
             print(f"Car stopped.")
-            action = input(">")
-        elif action.upper() == "QUIT":
+        elif action == "QUIT":
             print(f"Game ended")
             break
         else:
             print(f"I don't understand... please try again")
-            action = input(">")
 
 car_game()
