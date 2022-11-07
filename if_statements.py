@@ -17,7 +17,7 @@ else:
 print("Go cougs")
 
 
-# down payment excersie
+# down payment example
 
 house_price = 1000000
 
