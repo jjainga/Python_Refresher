@@ -7,10 +7,10 @@ def car_game():
         action = input(">").upper()
         if action == "HELP":
             print(''' 
-            Try
-            >start - to start the car
-            >stop - to stop the car
-            >quit - to end the game
+Try
+>start - to start the car
+>stop - to stop the car
+>quit - to end the game
             ''')
         elif action == "START":
             print(f"Car started... ready to go")
