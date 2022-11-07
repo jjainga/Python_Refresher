@@ -14,18 +14,19 @@ for x in range(4):
         print(f"({x},{y})")
 
 
-number_list = [5,2,5,2,2]
+number_list_F = [5,2,5,2,2]
+number_list_L = [2,2,2,2,5]
 
-for x in number_list:
+for x in number_list_F:
     print(f"X"* x)
 print("")
 
-def shape():
+def shape(numbers):
     line = ""
-    for x in number_list:
+    for x in numbers:
         line = ""
         for y in range(x):
             line += "X"
         print(line)
 
-shape()           
+shape(number_list_L)        
