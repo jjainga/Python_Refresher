@@ -1,3 +1,7 @@
+import math
+
+#look up python 3 math module to learn more about all the operators
+
 print(10*3)
 print(10**3)
 
