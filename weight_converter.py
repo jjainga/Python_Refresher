@@ -7,5 +7,6 @@ if weight_unit.upper() == "K":
 elif weight_unit.upper() =="L":
     new_weight = int(weight) * 0.45359237
     print("You are " + str(round(new_weight)) + "kgs!")
-
+else:
+    print(f"Please enter a L or K for unit")
 
