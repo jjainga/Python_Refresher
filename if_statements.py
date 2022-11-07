@@ -28,5 +28,5 @@ if good_credit:
     print(f"{int(down_payment):,}")
 elif good_credit is not True:
     down_payment = house_price * .2
-    print(f"{int(down_payment):,}")
+    print(f"Down Payment: {int(down_payment):,}")
 
