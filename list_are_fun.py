@@ -35,3 +35,30 @@ def matrix_loop(v):
             print(t)
 
 matrix_loop(matrix)
+
+
+
+#List methods
+
+number_list_methods = [3,5,7,8,9,2,10,3,5,8,2,4,7,8,1,]
+
+number_list_methods.append(15)
+number_list_methods.insert(0,10)
+number_list_methods.remove(5)
+number_list_methods.pop()
+number_list_methods.index(3)
+num = number_list_methods.copy()
+#look up to find more
+
+#remove the duplicates from a list
+
+def dup_removal(x):
+    a = []
+    x.sort()
+    print(x)
+    for i in x:
+        if i not in a:
+            a.append(i)
+    print(a)
+
+dup_removal(number_list_methods)
