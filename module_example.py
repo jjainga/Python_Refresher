@@ -1,5 +1,5 @@
 #Our example for using modules
-import utils
+
 from utils import find_max
 
 
