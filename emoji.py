@@ -3,8 +3,6 @@ emojis ={
     ":(" : "😢"
 }
 
-
-user_input = input(">")
 #emoji converter
 def emoji_converter(user):
     words = user.split(" ")
@@ -14,4 +12,5 @@ def emoji_converter(user):
     return(output)
 
 
+user_input = input(">")
 print(emoji_converter(user_input))
