@@ -2,7 +2,8 @@
 # then your import the module to the app you are writing your code in
 
 import converters
+from converters import kgs_to_lbs
 
 
-print(converters.kgs_to_lbs(70))
+print(kgs_to_lbs(70))
 print(converters.lbs_to_kgs(160))
