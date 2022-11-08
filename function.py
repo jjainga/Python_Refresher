@@ -30,3 +30,5 @@ result = square(3)
 
 print(result)
 print(square(4))
+
+#by default all funciton return None, but you can change that by assigning something to return 

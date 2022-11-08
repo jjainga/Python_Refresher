@@ -54,7 +54,6 @@ num = number_list_methods.copy()
 
 def dup_removal(x):
     a = []
-    x.sort()
     print(x)
     for i in x:
         if i not in a:
