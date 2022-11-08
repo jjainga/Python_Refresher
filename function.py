@@ -19,3 +19,14 @@ def total_cost(item_cost,shipping_cost,tax):
 total_cost(item_cost=20, shipping_cost=4, tax=2)
 
 #for the most part use potitial argumnets then key work arguments
+
+#return values, return statements
+
+def square(number):
+    return number * number
+
+
+result = square(3)
+
+print(result)
+print(square(4))

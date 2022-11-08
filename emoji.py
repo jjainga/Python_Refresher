@@ -4,12 +4,14 @@ emojis ={
 }
 
 
+user_input = input(">")
 #emoji converter
-def emoji_converter():
-    user_input = input(">")
-    words = user_input.split(" ")
+def emoji_converter(user):
+    words = user.split(" ")
     output = ""
     for i in words:
         output += emojis.get(i, f"{i} ")
-    print(output)
-emoji_converter()
+    return(output)
+
+
+print(emoji_converter(user_input))
