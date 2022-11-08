@@ -24,3 +24,5 @@ class Person:
 person1 = Person("Joshua")
 
 person1.talk()
+person2 = Person("Lindsay")
+person2.talk()
