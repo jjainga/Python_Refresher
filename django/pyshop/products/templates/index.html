@@ -1,6 +1,8 @@
 {% extends 'base.html' %}
 
 {%block content%}
+
+
     <div>
         <div>
             <h1>Products</h1>
@@ -8,7 +10,15 @@
         <div>
             <ul>
                 {% for product in products%}
-                    <li>{{product.name}} (${{product.price}})</li>
+                <div class="card" style="width: 18rem;">
+                    <img src="{{product.image_url}}" class="card-img" alt="...">
+                    <div class="card-body">
+                      <h5 class="card-title">{{product.name}}</h5>
+                      <p class="card-text">${{product.price}}</p>
+                      <a href="#" class="btn btn-primary">Add to Cart</a>
+                      <a href="#" class="btn btn-primary">Quick Buy</a>
+                    </div>
+                  </div>
                 {% endfor %}
         </div>
     </div>
