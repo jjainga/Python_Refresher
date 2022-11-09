@@ -1,0 +1,16 @@
+<body>
+
+        <div>
+            <div>
+                <h1>Products</h1>
+            </div>
+            <div>
+                <ul>
+                    {% for product in products%}
+                        <li>{{product.name}} (${{product.price}})</li>
+                    {% endfor %}
+
+            </div>
+        </div>
+
+</body>
