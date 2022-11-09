@@ -5,3 +5,7 @@ from django.shortcuts import render
 #need to map the url to this function
 def index(request):
     return HttpResponse('Hello World')
+
+
+def new_products(request):
+    return HttpResponse("New products")
